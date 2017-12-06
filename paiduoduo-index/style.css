@@ -1,0 +1,127 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.programs{
+	height: 1373px;
+	background-color: #6173f4;
+	text-align: center;
+	overflow: hidden;
+
+}
+.programs .title{
+	color: white;
+	width: 1170px;
+	height: 220px;
+	margin: 117px auto;
+
+}
+
+.programs .title p{
+	font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.programs .title .solid{
+	margin: 26px auto;
+	height: 2px;
+	width: 80px;
+	background-color: #ccc;
+}
+.programs .title span{
+	display: block;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 25px;
+	margin-top: 100px;
+
+}
+
+.programs .info{
+	width: 1170px;
+	margin:0 auto;
+}
+.programs .info .same{
+	padding: 5px 15px;
+	box-sizing: border-box;
+	float: left;
+	width: 389.89px;
+	height: 860px;
+	/*background-color: green;*/
+}
+
+.programs .info .left .content1{
+	 height: 314px;
+	 margin-bottom: 100px;
+}
+
+.programs .info .left .content2{
+	height: 288px;
+}
+.programs .info .center .content3{
+	margin-bottom: 100px;
+	height: 236px;
+}
+.programs .info .center .content4{
+	height: 418px;
+}
+.programs .info .right .content5{
+	 margin-bottom: 100px;
+	height: 288px;
+}
+.programs .info .right .content6{
+	height: 261px;
+}
+
+.programs .info .same .nomal1{
+	position: absolute;
+	left: 10px;
+	top: -28px;
+	width: 56px;
+	height: 56px;
+	border-radius: 30px;
+	background-color: #6173f4;
+}
+.programs .info .same .csameSpan{
+	font-style:italic;
+	font-size: 14.5px;
+	font-family: "Microsoft YaHei", "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+	color: #7f7f7f;
+	display: block;
+	text-align: left;
+	white-space: pre-line;
+	line-height: 24px;
+}
+.programs .info .csame{
+	padding: 30px 34px;
+	box-sizing: border-box;
+	position: relative;
+	background-color: #fff;
+}
+.programs .info .content4{
+	padding: 30px 40px;
+	box-sizing: border-box;
+}
+.programs .info .csame:after{
+	content: "";
+	display: block;
+	width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+}
+.programs .info .same .spanfooter{
+	display: block;
+	position: absolute;
+	bottom: -40px;
+	font-size: 19px;
+	color: white;
+}
+
+
